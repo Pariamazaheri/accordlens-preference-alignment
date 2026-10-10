@@ -1,0 +1,29 @@
+{
+  "dpo": {
+    "accuracy_difference_vs_sft": -0.03125,
+    "paired_bootstrap_ci95": [
+      -0.09375,
+      0.0
+    ],
+    "resamples": 10000,
+    "seed": 42
+  },
+  "orpo": {
+    "accuracy_difference_vs_sft": 0.0,
+    "paired_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "resamples": 10000,
+    "seed": 42
+  },
+  "ppo": {
+    "accuracy_difference_vs_sft": 0.0,
+    "paired_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "resamples": 10000,
+    "seed": 42
+  }
+}

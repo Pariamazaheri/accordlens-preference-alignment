@@ -1,0 +1,103 @@
+{
+  "config": {
+    "seed": 42,
+    "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+    "model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "dataset_revision": "09be8c5bbc57cb3887f3a9732ad6aa7ec602a1fa",
+    "train_pairs": 48,
+    "validation_pairs": 16,
+    "test_pairs": 32,
+    "max_length": 256,
+    "steps": 20,
+    "learning_rate": 0.0002,
+    "lora_rank": 4,
+    "lora_alpha": 8,
+    "beta": 0.1,
+    "orpo_weight": 0.1,
+    "ppo_rollouts": 6,
+    "ppo_epochs": 3,
+    "ppo_max_new_tokens": 24,
+    "ppo_kl_coefficient": 0.02,
+    "ppo_learning_rate": 2e-05,
+    "judge_cases_per_source": 12,
+    "judge_max_input_tokens": 1536,
+    "judge_max_new_tokens": 8
+  },
+  "trainable_policy_parameters": 270336,
+  "total_policy_parameters": 494303104,
+  "test": {
+    "base": {
+      "n": 32,
+      "mean_logp_accuracy": 0.53125,
+      "ci95": [
+        0.3644951711897464,
+        0.6913061289193116
+      ],
+      "mean_margin": -0.14878569543361664,
+      "chosen_nll": 2.853097078904706,
+      "sum_logp_accuracy": 0.53125
+    },
+    "sft": {
+      "n": 32,
+      "mean_logp_accuracy": 0.53125,
+      "ci95": [
+        0.3644951711897464,
+        0.6913061289193116
+      ],
+      "mean_margin": -0.06908509507775307,
+      "chosen_nll": 2.3242024272999284,
+      "sum_logp_accuracy": 0.5625
+    },
+    "dpo": {
+      "n": 32,
+      "mean_logp_accuracy": 0.5,
+      "ci95": [
+        0.33630882869327483,
+        0.6636911713067252
+      ],
+      "mean_margin": -0.10399554297327995,
+      "chosen_nll": 2.3725544341787264,
+      "sum_logp_accuracy": 0.5625
+    },
+    "orpo": {
+      "n": 32,
+      "mean_logp_accuracy": 0.53125,
+      "ci95": [
+        0.3644951711897464,
+        0.6913061289193116
+      ],
+      "mean_margin": -0.06286067515611649,
+      "chosen_nll": 2.319030637585809,
+      "sum_logp_accuracy": 0.5625
+    },
+    "ppo": {
+      "n": 32,
+      "mean_logp_accuracy": 0.53125,
+      "ci95": [
+        0.3644951711897464,
+        0.6913061289193116
+      ],
+      "mean_margin": -0.06689037755131721,
+      "chosen_nll": 2.320839114799818,
+      "sum_logp_accuracy": 0.5625
+    }
+  },
+  "reward_test": {
+    "n": 32,
+    "pairwise_accuracy": 0.65625,
+    "ci95": [
+      0.4831108797896222,
+      0.7958956207556682
+    ]
+  },
+  "timings_seconds": {
+    "sft": 13.22473692893982,
+    "reward_head": 0.022739887237548828,
+    "dpo": 26.950254201889038,
+    "orpo": 27.015376091003418,
+    "ppo": 14.742340087890625
+  },
+  "total_seconds": 203.24488997459412,
+  "reference_adapter_unchanged": true,
+  "torch_version": "2.14.1"
+}

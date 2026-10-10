@@ -1,0 +1,41 @@
+{
+  "public_split_manifest_matches_local": true,
+  "public_judge_cases_match_local": true,
+  "provided_gpt4_export_matches_first_1000_official_rows": true,
+  "original_export_profile": {
+    "sources": {
+      "train": {
+        "sha256": "882ef8cd8bcb57897ea0d0aee8b741b8d575c906df4ffc576d392cf3be75ef51",
+        "format": ".arrow"
+      },
+      "test": {
+        "sha256": "fefc474c614179327be8864de85737e30ce8942f9997b43d813f79d164a615ab",
+        "format": ".arrow"
+      }
+    },
+    "diagnostics": {
+      "train": {
+        "source_rows": 160800,
+        "unique_valid_pairs": 159384,
+        "invalid_pairs": 1416
+      },
+      "test": {
+        "source_rows": 8552,
+        "unique_valid_pairs": 8475,
+        "invalid_pairs": 77
+      }
+    },
+    "cross_split_prompt_count": 69,
+    "length_rejections_before_selection": {
+      "train": 46,
+      "test": 20
+    },
+    "selection": "Ascending SHA256 pair identifier; first eligible unique prompts after cross-source prompt exclusion, complete native chat sequences <=256 tokens",
+    "human_parquet_sha256": "4877bc46a40929f4082c3c79593700fb897b1d6c7f4c473032694a01322f5769",
+    "reference_xlsx_sha256": "6b6db96e03d7f5c01e97f912be519b10b320c7e23bca3ad54c349d64ca0a9e28",
+    "human_dataset_revision": "f7d2896d2cc5d80f8b55c2bbc722613555233c25",
+    "judge_reference_annotators": {
+      "gpt4_pair": 1000
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "adapter": "dpo",
+  "heldout_pairs": 2,
+  "max_absolute_logp_difference": 0.0,
+  "passed": true
+}

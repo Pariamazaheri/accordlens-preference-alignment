@@ -1,0 +1,9 @@
+{
+  "hidden_size": 896,
+  "center": -0.6665447354316711,
+  "scale": 3.611077308654785,
+  "best_validation_epoch": 17,
+  "backbone": "sft",
+  "trainable_parameters": 896,
+  "architecture": "Frozen SFT final-token hidden state plus linear Bradley-Terry head"
+}

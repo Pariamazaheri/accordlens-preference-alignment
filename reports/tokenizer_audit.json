@@ -1,0 +1,218 @@
+[
+  {
+    "model": "Llama 2",
+    "topic": "Shipping",
+    "language": "English",
+    "characters": 49,
+    "tokens": 11,
+    "characters_per_token": 4.454545454545454,
+    "vocabulary_size": 32000
+  },
+  {
+    "model": "Llama 2",
+    "topic": "Shipping",
+    "language": "Persian",
+    "characters": 53,
+    "tokens": 53,
+    "characters_per_token": 1.0,
+    "vocabulary_size": 32000
+  },
+  {
+    "model": "Llama 2",
+    "topic": "Returns",
+    "language": "English",
+    "characters": 47,
+    "tokens": 10,
+    "characters_per_token": 4.7,
+    "vocabulary_size": 32000
+  },
+  {
+    "model": "Llama 2",
+    "topic": "Returns",
+    "language": "Persian",
+    "characters": 55,
+    "tokens": 55,
+    "characters_per_token": 1.0,
+    "vocabulary_size": 32000
+  },
+  {
+    "model": "Llama 2",
+    "topic": "Stock",
+    "language": "English",
+    "characters": 40,
+    "tokens": 9,
+    "characters_per_token": 4.444444444444445,
+    "vocabulary_size": 32000
+  },
+  {
+    "model": "Llama 2",
+    "topic": "Stock",
+    "language": "Persian",
+    "characters": 30,
+    "tokens": 31,
+    "characters_per_token": 0.967741935483871,
+    "vocabulary_size": 32000
+  },
+  {
+    "model": "Llama 2",
+    "topic": "Payment",
+    "language": "English",
+    "characters": 47,
+    "tokens": 9,
+    "characters_per_token": 5.222222222222222,
+    "vocabulary_size": 32000
+  },
+  {
+    "model": "Llama 2",
+    "topic": "Payment",
+    "language": "Persian",
+    "characters": 54,
+    "tokens": 55,
+    "characters_per_token": 0.9818181818181818,
+    "vocabulary_size": 32000
+  },
+  {
+    "model": "Llama 2",
+    "topic": "Discount",
+    "language": "English",
+    "characters": 47,
+    "tokens": 11,
+    "characters_per_token": 4.2727272727272725,
+    "vocabulary_size": 32000
+  },
+  {
+    "model": "Llama 2",
+    "topic": "Discount",
+    "language": "Persian",
+    "characters": 47,
+    "tokens": 47,
+    "characters_per_token": 1.0,
+    "vocabulary_size": 32000
+  },
+  {
+    "model": "Llama 2",
+    "topic": "Support",
+    "language": "English",
+    "characters": 52,
+    "tokens": 9,
+    "characters_per_token": 5.777777777777778,
+    "vocabulary_size": 32000
+  },
+  {
+    "model": "Llama 2",
+    "topic": "Support",
+    "language": "Persian",
+    "characters": 59,
+    "tokens": 60,
+    "characters_per_token": 0.9833333333333333,
+    "vocabulary_size": 32000
+  },
+  {
+    "model": "Llama 3",
+    "topic": "Shipping",
+    "language": "English",
+    "characters": 49,
+    "tokens": 10,
+    "characters_per_token": 4.9,
+    "vocabulary_size": 128256
+  },
+  {
+    "model": "Llama 3",
+    "topic": "Shipping",
+    "language": "Persian",
+    "characters": 53,
+    "tokens": 17,
+    "characters_per_token": 3.1176470588235294,
+    "vocabulary_size": 128256
+  },
+  {
+    "model": "Llama 3",
+    "topic": "Returns",
+    "language": "English",
+    "characters": 47,
+    "tokens": 9,
+    "characters_per_token": 5.222222222222222,
+    "vocabulary_size": 128256
+  },
+  {
+    "model": "Llama 3",
+    "topic": "Returns",
+    "language": "Persian",
+    "characters": 55,
+    "tokens": 18,
+    "characters_per_token": 3.0555555555555554,
+    "vocabulary_size": 128256
+  },
+  {
+    "model": "Llama 3",
+    "topic": "Stock",
+    "language": "English",
+    "characters": 40,
+    "tokens": 8,
+    "characters_per_token": 5.0,
+    "vocabulary_size": 128256
+  },
+  {
+    "model": "Llama 3",
+    "topic": "Stock",
+    "language": "Persian",
+    "characters": 30,
+    "tokens": 9,
+    "characters_per_token": 3.3333333333333335,
+    "vocabulary_size": 128256
+  },
+  {
+    "model": "Llama 3",
+    "topic": "Payment",
+    "language": "English",
+    "characters": 47,
+    "tokens": 9,
+    "characters_per_token": 5.222222222222222,
+    "vocabulary_size": 128256
+  },
+  {
+    "model": "Llama 3",
+    "topic": "Payment",
+    "language": "Persian",
+    "characters": 54,
+    "tokens": 15,
+    "characters_per_token": 3.6,
+    "vocabulary_size": 128256
+  },
+  {
+    "model": "Llama 3",
+    "topic": "Discount",
+    "language": "English",
+    "characters": 47,
+    "tokens": 8,
+    "characters_per_token": 5.875,
+    "vocabulary_size": 128256
+  },
+  {
+    "model": "Llama 3",
+    "topic": "Discount",
+    "language": "Persian",
+    "characters": 47,
+    "tokens": 13,
+    "characters_per_token": 3.6153846153846154,
+    "vocabulary_size": 128256
+  },
+  {
+    "model": "Llama 3",
+    "topic": "Support",
+    "language": "English",
+    "characters": 52,
+    "tokens": 9,
+    "characters_per_token": 5.777777777777778,
+    "vocabulary_size": 128256
+  },
+  {
+    "model": "Llama 3",
+    "topic": "Support",
+    "language": "Persian",
+    "characters": 59,
+    "tokens": 18,
+    "characters_per_token": 3.2777777777777777,
+    "vocabulary_size": 128256
+  }
+]

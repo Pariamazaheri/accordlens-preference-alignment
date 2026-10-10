@@ -1,0 +1,36 @@
+{
+  "sources": {
+    "train": {
+      "sha256": "65208ab6f9a24ca1dab22e4444d09da22f052b6106c122d8b80432c261e486ad",
+      "format": ".jsonl"
+    },
+    "test": {
+      "sha256": "80c2d33f5e9c18305f03e06e36a28dba75fecda48c2ecb240d2d4c3a9e1dd5f6",
+      "format": ".jsonl"
+    }
+  },
+  "diagnostics": {
+    "train": {
+      "source_rows": 160800,
+      "unique_valid_pairs": 159384,
+      "invalid_pairs": 1416
+    },
+    "test": {
+      "source_rows": 8552,
+      "unique_valid_pairs": 8475,
+      "invalid_pairs": 77
+    }
+  },
+  "cross_split_prompt_count": 69,
+  "length_rejections_before_selection": {
+    "train": 46,
+    "test": 20
+  },
+  "selection": "Ascending SHA256 pair identifier; first eligible unique prompts after cross-source prompt exclusion, complete native chat sequences <=256 tokens",
+  "human_parquet_sha256": "4877bc46a40929f4082c3c79593700fb897b1d6c7f4c473032694a01322f5769",
+  "reference_xlsx_sha256": "57068327ffb5f8fddb15fedbbfe40b26fe862da2326331e5cf64a42320a00e71",
+  "human_dataset_revision": "f7d2896d2cc5d80f8b55c2bbc722613555233c25",
+  "judge_reference_annotators": {
+    "gpt4_pair": 1000
+  }
+}

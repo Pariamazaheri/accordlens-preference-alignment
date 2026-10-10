@@ -1,0 +1,19 @@
+{
+  "artifacts/LICENSE-QWEN": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+  "artifacts/MODEL_CARD.md": "18692199e66d987b65de7b8e0f3966a5f113738d37aea4b3b4ea7886b96228e6",
+  "artifacts/dpo/README.md": "8c84f08bfc9b107706b189171892b6936146e3a2a3f439ded4dc96835bb73b2e",
+  "artifacts/dpo/adapter_config.json": "e1bbaa0d868aebe4cf12a9f90825b19d1308a87de2085e6a0f02829abb6b7c0a",
+  "artifacts/dpo/adapter_model.safetensors": "d64775d03ff22d6a6af65c820002c0ef2c81c308fbf8335a28f8776c6e4e702a",
+  "artifacts/orpo/README.md": "eb257678bea5a44ba13225657e251d6f5b628c424b911ac1620fb7109d4cb543",
+  "artifacts/orpo/adapter_config.json": "e1bbaa0d868aebe4cf12a9f90825b19d1308a87de2085e6a0f02829abb6b7c0a",
+  "artifacts/orpo/adapter_model.safetensors": "a046e1034110261e0c5adfe2f20d1da271aba5f9940d715daaeb8554c54f83ca",
+  "artifacts/ppo/README.md": "377756015f36e88e53f7aa86a6623808e857d9ea22f15ffa7be7ae1453345fcf",
+  "artifacts/ppo/adapter_config.json": "e1bbaa0d868aebe4cf12a9f90825b19d1308a87de2085e6a0f02829abb6b7c0a",
+  "artifacts/ppo/adapter_model.safetensors": "44c48d733c351266f289e9780a58eca59092291ae51aa94d2627cab365f204cf",
+  "artifacts/reward_head.safetensors": "04f07ee4146e8ce9ae42e9a450aa3655c57e8458b47cba48fe1843dd3ea14a05",
+  "artifacts/reward_metadata.json": "b4eef605be4562f0879840c8981cc2fe6a394a6ed6db258a00812afe18d92a17",
+  "artifacts/sft/README.md": "7698cd47f5ba9ca00b0627210b652634923a233f284e8ad467a30490cda0ed3d",
+  "artifacts/sft/adapter_config.json": "e1bbaa0d868aebe4cf12a9f90825b19d1308a87de2085e6a0f02829abb6b7c0a",
+  "artifacts/sft/adapter_model.safetensors": "7bc26759a2b66aa99756cb889a080e91c218e175eea1e459682c30e728e7c4e9",
+  "artifacts/value_head.safetensors": "f9d2e9e6f6c74576960fa9714d120856a980eaf6ee3f0f950ced46ae6f6d17e1"
+}

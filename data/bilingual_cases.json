@@ -1,0 +1,32 @@
+[
+  {
+    "topic": "Shipping",
+    "English": "Your order has shipped and will arrive on Friday.",
+    "Persian": "سفارش شما ارسال شده است و روز جمعه تحویل داده می‌شود."
+  },
+  {
+    "topic": "Returns",
+    "English": "You can return unused items within thirty days.",
+    "Persian": "می‌توانید کالاهای استفاده‌نشده را تا سی روز بازگردانید."
+  },
+  {
+    "topic": "Stock",
+    "English": "This jacket is available in three sizes.",
+    "Persian": "این کت در سه اندازه موجود است."
+  },
+  {
+    "topic": "Payment",
+    "English": "Please check your payment method and try again.",
+    "Persian": "لطفاً روش پرداخت خود را بررسی کنید و دوباره تلاش کنید."
+  },
+  {
+    "topic": "Discount",
+    "English": "The discount applies only to eligible products.",
+    "Persian": "تخفیف فقط برای محصولات واجد شرایط اعمال می‌شود."
+  },
+  {
+    "topic": "Support",
+    "English": "Contact customer support if your package is missing.",
+    "Persian": "اگر بسته شما مفقود شده است با پشتیبانی مشتریان تماس بگیرید."
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "rollout": 1,
+    "id": "00205669f2094202ce97c3f9dda5ce48375ce3c00479c1b73ea6c4492f8a0485",
+    "raw_reward": -2.3579416275024414,
+    "normalized_reward": -0.4683912161107559,
+    "sampled_reference_kl": 0.0,
+    "response": "Besides that, there is a razor line similar to yours. It has an analog or digital device on the tip so you",
+    "response_tokens": 24
+  },
+  {
+    "rollout": 2,
+    "id": "001c0a8449b012286234959e57dcda2a2f6fef32dc5235b22959a2e3bb351307",
+    "raw_reward": -3.842939853668213,
+    "normalized_reward": -0.8796253435570525,
+    "sampled_reference_kl": 0.000486710894620046,
+    "response": "As an artificial intelligence language model specifically trained by Alibaba Cloud on Chinese characters and the English alphabet, I can confirm that Mickey",
+    "response_tokens": 24
+  },
+  {
+    "rollout": 3,
+    "id": "00242c0550d340fb2390a19487825f9b258890207a3887f9caeef0e31e13996e",
+    "raw_reward": -1.6562652587890625,
+    "normalized_reward": -0.2740790181880893,
+    "sampled_reference_kl": 0.00021123762417118996,
+    "response": "Indeed. Therefore we make things like real terrain that is millions of miles away for people to travel across it, therefore making",
+    "response_tokens": 24
+  },
+  {
+    "rollout": 4,
+    "id": "001dd37548592ae831610ea01ae2d366e44a81fd3e687cbcb188e261af336865",
+    "raw_reward": -6.624526023864746,
+    "normalized_reward": -1.6499179549973604,
+    "sampled_reference_kl": -0.0025886129587888718,
+    "response": "Absolutely precise description... Tomato Bisque: A light creamy broth baked with onion and ginger into this creamy stew-braised vel",
+    "response_tokens": 24
+  },
+  {
+    "rollout": 5,
+    "id": "000351c5e38f2b894d27f75e3202a7f6ddd8bc3cf2b25c8becb0fa8f31f853a1",
+    "raw_reward": -2.0851762294769287,
+    "normalized_reward": -0.3928554757454729,
+    "sampled_reference_kl": 0.0012283913092687726,
+    "response": "I think I\u2019ll try adding a small sprinkle of Parmesan seasoning to salt Steve\u2019s scallop blend pasta crusts.",
+    "response_tokens": 24
+  },
+  {
+    "rollout": 6,
+    "id": "002522152a8610ef2bd3676c866d4c3e7ebade3822fa1e4b0b169897370d094e",
+    "raw_reward": -5.56561803817749,
+    "normalized_reward": -1.3566791525077717,
+    "sampled_reference_kl": 0.0037931359838694334,
+    "response": "Sure! Here are a few of the most common indoor activity[s] I am familiar with: Residential environmental science careers\u91cd\u8981\u4f5c\u7528",
+    "response_tokens": 24
+  }
+]
