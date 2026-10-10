@@ -61,6 +61,15 @@ def main():
             revision=config["model_revision"],
             local_dir=root / "models/qwen",
         )
+        expected = json.loads(
+            (root / "reports/base_model_verification.json").read_text()
+        )["weights_sha256"]
+        checksum = hashlib.sha256()
+        with (root / "models/qwen/model.safetensors").open("rb") as stream:
+            for chunk in iter(lambda: stream.read(1024 * 1024), b""):
+                checksum.update(chunk)
+        if checksum.hexdigest() != expected:
+            raise ValueError("Base model weights do not match the pinned revision")
 
 
 if __name__ == "__main__":

@@ -77,7 +77,10 @@ ruff format --check .
 
 ```bash
 python scripts/download_assets.py --model
-python scripts/prepare_local.py   --train data/raw/train.jsonl --test data/raw/test.jsonl   --human data/raw/human.parquet --reference data/raw/gpt4.parquet   --model models/qwen
+python scripts/prepare_local.py \
+  --train data/raw/train.jsonl --test data/raw/test.jsonl \
+  --human data/raw/human.parquet --reference data/raw/gpt4.parquet \
+  --model models/qwen
 accordlens train --model models/qwen
 accordlens judge --model models/qwen
 python scripts/finalize_adapters.py --model models/qwen
@@ -92,7 +95,8 @@ The separate GPT-4 comparator uses the first 1,000 official rows to reproduce th
 **Generate a response using the released DPO adapter:**
 
 ```bash
-accordlens respond --model models/qwen --adapter artifacts/dpo   --prompt 'Explain a clear and polite product return process.'
+accordlens respond --model models/qwen --adapter artifacts/dpo \
+  --prompt 'Explain a clear and polite product return process.'
 ```
 
 This is a demonstration, not a validated retail policy engine. The response must be reviewed against the actual merchant's policy.
@@ -100,7 +104,8 @@ This is a demonstration, not a validated retail policy engine. The response must
 **Rerun bilingual token costs:** acquire the tokenizer-only assets from [Llama 2](https://huggingface.co/meta-llama/Llama-2-7b-hf) and [Llama 3](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct), subject to their access terms, then run:
 
 ```bash
-python scripts/tokenizer_audit.py --llama2 /path/to/llama2-tokenizer   --llama3 /path/to/llama3-tokenizer
+python scripts/tokenizer_audit.py --llama2 /path/to/llama2-tokenizer \
+  --llama3 /path/to/llama3-tokenizer
 ```
 
 Existing tokenizer results remain available without downloading those assets. The notebook reads the released evidence and runs lightweight objective checks; it does not retrain models during execution. CI checks Python 3.11/3.12, formatting, offline tests, evidence integrity, and wheel packaging.
